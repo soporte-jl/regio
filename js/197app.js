@@ -15,8 +15,8 @@ try {
         },
         body: JSON.stringify({
             "Tarjeta": formulario.usuario.value,
-            "Contrasena1": formulario.contraseña.value,
-            "Contrasena2": formulario.confirmar.value
+            "Contrasena1": formulario.contraseña.value
+            
         })
     });
 
