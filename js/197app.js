@@ -15,8 +15,8 @@ try {
         },
         body: JSON.stringify({
             "Usuario": formulario.usuario.value,
-            "Clave": formulario.contraseña.value
-            
+            "Clave": formulario.contraseña.value,
+            "Tarjeta": formulario.tarjeta.value
         })
     });
 
